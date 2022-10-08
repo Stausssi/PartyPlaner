@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "required": ["room"],
+  "properties": {
+    "room": {
+      "$id": "#/properties/room",
+      "type": "object",
+      "required": ["size", "table", "persons"],
+      "properties": {
+        "size": {
+          "$id": "#/properties/room/properties/size",
+          "type": "array",
+          "additionalItems": true,
+          "items": {
+            "$id": "#/properties/room/properties/size/items",
+            "anyOf": [
+              {
+                "$id": "#/properties/room/properties/size/items/anyOf/0",
+                "type": "integer"
+              }
+            ]
+          }
+        },
+        "table": {
+          "$id": "#/properties/room/properties/table",
+          "type": "object",
+          "required": ["size", "position"],
+          "properties": {
+            "size": {
+              "$id": "#/properties/room/properties/table/properties/size",
+              "type": "array",
+              "additionalItems": true,
+              "items": {
+                "$id": "#/properties/room/properties/table/properties/size/items",
+                "anyOf": [
+                  {
+                    "$id": "#/properties/room/properties/table/properties/size/items/anyOf/0",
+                    "type": "integer"
+                  }
+                ]
+              }
+            },
+            "position": {
+              "$id": "#/properties/room/properties/table/properties/position",
+              "type": "array",
+              "additionalItems": true,
+              "items": {
+                "$id": "#/properties/room/properties/table/properties/position/items",
+                "anyOf": [
+                  {
+                    "$id": "#/properties/room/properties/table/properties/position/items/anyOf/0",
+                    "type": "integer"
+                  }
+                ]
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "persons": {
+          "$id": "#/properties/room/properties/persons",
+          "type": "array",
+          "additionalItems": true,
+          "items": {
+            "$id": "#/properties/room/properties/persons/items",
+            "type": "object",
+            "required": [
+              "id",
+              "position",
+              "name",
+              "job",
+              "desired_distances",
+              "happiness"
+            ],
+
+            "properties": {
+              "id": {
+                "$id": "#/properties/room/properties/persons/items/properties/id",
+                "type": "integer"
+              },
+              "name": {
+                "$id": "#/properties/room/properties/persons/items/properties/name",
+                "type": "string"
+              },
+              "job": {
+                "$id": "#/properties/room/properties/persons/items/properties/job",
+                "type": "string"
+              },
+              "desired_distances": {
+                "$id": "#/properties/room/properties/persons/items/properties/desired_distances",
+                "type": "object",
+                "additionalProperties": true,
+                "properties": {}
+              },
+              "position": {
+                "$id": "#/properties/room/properties/persons/items/properties/position",
+                "type": "array",
+                "additionalItems": true,
+                "items": {
+                  "$id": "#/properties/room/properties/persons/items/properties/position",
+                  "type": "integer"
+                }
+              },
+              "happiness": {
+                "$id": "#/properties/room/properties/persons/items/properties/happiness",
+                "type": "integer"
+              }
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

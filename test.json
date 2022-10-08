@@ -1,0 +1,180 @@
+{
+    "room": {
+        "size": [
+            18,
+            28
+        ],
+        "table": {
+            "size": [
+                2,
+                6
+            ],
+            "position": [
+                8,
+                8
+            ]
+        },
+        "persons": [
+            {
+                "id": 1,
+                "name": "Brigitte",
+                "job": "Börsenmaklerin",
+                "desired_distances": {
+                    "1": 0,
+                    "2": 2.4,
+                    "3": 4.8,
+                    "4": 1.2,
+                    "5": 7.2,
+                    "6": 3.0,
+                    "7": 7.2,
+                    "8": 2.4
+                },
+                "position": [
+                    12,
+                    8
+                ],
+                "happiness": 0
+            },
+            {
+                "id": 2,
+                "name": "Cäsar",
+                "job": "Zahnarzt",
+                "desired_distances": {
+                    "1": 1.2,
+                    "2": 0,
+                    "3": 3.0,
+                    "4": 2.4,
+                    "5": 6.6,
+                    "6": 7.2,
+                    "7": 5.4,
+                    "8": 3.6
+                },
+                "position": [
+                    16,
+                    6
+                ],
+                "happiness": 0
+            },
+            {
+                "id": 3,
+                "name": "Floar",
+                "job": "Fotomodell",
+                "desired_distances": {
+                    "1": 4.2,
+                    "2": 1.8,
+                    "3": 0,
+                    "4": 5.4,
+                    "5": 3.6,
+                    "6": 6,
+                    "7": 7.8,
+                    "8": 3.0
+                },
+                "position": [
+                    16,
+                    4
+                ],
+                "happiness": 0
+            },
+            {
+                "id": 4,
+                "name": "Gero",
+                "job": "Geschäftsmann",
+                "desired_distances": {
+                    "1": 1.8,
+                    "2": 3.6,
+                    "3": 2.4,
+                    "4": 0,
+                    "5": 4.8,
+                    "6": 3.6,
+                    "7": 2.4,
+                    "8": 6
+                },
+                "position": [
+                    12,
+                    6
+                ],
+                "happiness": 0
+            },
+            {
+                "id": 5,
+                "name": "Kuno",
+                "job": "Künstler",
+                "desired_distances": {
+                    "1": 5.4,
+                    "2": 4.2,
+                    "3": 1.2,
+                    "4": 9.0,
+                    "5": 0,
+                    "6": 3.6,
+                    "7": 2.4,
+                    "8": 7.2
+                },
+                "position": [
+                    12,
+                    4
+                ],
+                "happiness": 0
+            },
+            {
+                "id": 6,
+                "name": "Penelope",
+                "job": "Prinzessin",
+                "desired_distances": {
+                    "1": 6.6,
+                    "2": 3.0,
+                    "3": 8.4,
+                    "4": 6,
+                    "5": 1.8,
+                    "6": 0,
+                    "7": 4.2,
+                    "8": 9.0
+                },
+                "position": [
+                    8,
+                    14
+                ],
+                "happiness": 0
+            },
+            {
+                "id": 7,
+                "name": "Viola",
+                "job": "Geigerin",
+                "desired_distances": {
+                    "1": 7.8,
+                    "2": 8.4,
+                    "3": 6,
+                    "4": 4.8,
+                    "5": 4.2,
+                    "6": 2.4,
+                    "7": 0,
+                    "8": 1.8
+                },
+                "position": [
+                    6,
+                    8
+                ],
+                "happiness": 0
+            },
+            {
+                "id": 8,
+                "name": "Willi",
+                "job": "Gewichtheber",
+                "desired_distances": {
+                    "1": 4.8,
+                    "2": 7.8,
+                    "3": 3.6,
+                    "4": 4.2,
+                    "5": 3.6,
+                    "6": 1.8,
+                    "7": 5.4,
+                    "8": 0
+                },
+                "position": [
+                    6,
+                    12
+                ],
+                "happiness": 0
+            }
+        ]
+    }
+}
